@@ -1,5 +1,5 @@
 # Addon name
-ADDON = "auto_sync_lingq"
+ADDON = "1151761316"
 LANGUAGE_CODES = {
     "Czech": "cs",
     "Norwegian": "no",
