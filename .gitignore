@@ -4,3 +4,4 @@ venv
 .pytest_cache
 .env.sh
 __pycache__
+sync_lingq.ankiaddon
