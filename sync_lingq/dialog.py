@@ -347,8 +347,11 @@ def lingq_sync_cards():
             showWarning("Could not find or create LingQ Sync note type.")
             return
 
-        # I don't quite understand ANKI, but for some reason commenting out the next line seems to work when I think it shouldn't 🤷‍♂️  ️
-        # mw.col.decks.select(deck_id)
+        # Rant: anki made adding cards quite unintuitive, I do not like these next two lines
+        mw.col.decks.select(deck_id)  # This method takes an ID
+        mw.col.models.setCurrent(
+            model
+        )  # This method takes an object... oh, the inconsistency!
 
         # Get all cards for language
         cards_import = get_cards(language)
