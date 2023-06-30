@@ -1,4 +1,5 @@
-
+# NOTICE
+I am working on a FREE alternative to LingQ, please check it out -> www.swiftlings.com
 # Auto Sync LingQ
 Automatically get the words you've encountered in LingQ synced into Anki 2.1.
 
